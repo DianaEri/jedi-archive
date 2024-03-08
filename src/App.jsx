@@ -16,7 +16,13 @@ const FilmList = ({ list }) => {
             <span>Director:</span> {film.director}
           </li>
           <li>
+            <span>Producer:</span> {film.producer}
+          </li>
+          <li>
             <span>Opening Crawl:</span> {film.opening_crawl}
+          </li>
+          <li>
+            <span>Release Date:</span> {film.release_date}
           </li>
         </ul>
       ))}
